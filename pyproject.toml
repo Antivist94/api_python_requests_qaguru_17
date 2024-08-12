@@ -2,11 +2,14 @@
 name = "api-python-requests-qaguru-17"
 version = "0.1.0"
 description = "api_python_requests_qaguru_17"
-authors = ["Your Name <you@example.com>"]
+authors = ["Eugene Evdokimenko <eugene.qa94@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+requests = "^2.32.3"
+jsonschema = "^4.23.0"
+pytest = "^8.3.2"
 
 
 [build-system]
